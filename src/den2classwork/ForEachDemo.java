@@ -1,4 +1,4 @@
-package den2classwork;
+package src.den2classwork;
 
 import java.util.Random;
 

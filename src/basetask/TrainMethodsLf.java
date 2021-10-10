@@ -1,4 +1,4 @@
-package basetask;
+package src.basetask;
 
 public class TrainMethodsLf {
     public int returnNewLnt(int newValue) {

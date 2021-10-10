@@ -1,4 +1,6 @@
-package basetask;
+package src.basetask;
+
+import src.basetask.TrainMethodsLf;
 
 public class TrainMethodsLfRunner {
     public static void main(String[] args) {

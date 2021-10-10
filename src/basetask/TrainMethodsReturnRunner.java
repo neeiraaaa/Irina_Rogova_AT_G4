@@ -1,4 +1,6 @@
-package basetask;
+package src.basetask;
+
+import src.basetask.TrainMethodsReturn;
 
 public class TrainMethodsReturnRunner {
     public static void main(String[] args) {

@@ -1,11 +1,11 @@
-package basetask;
+package src.basetask;
 
 public class MyMouseRunner {
 
     Mouse mouse = new Mouse("Ira", 23);
     public static void main(String[] args) {
 
-        new  MyMouseRunner().printMouseDetails();
+        new MyMouseRunner().printMouseDetails();
 
     }
 

@@ -1,6 +1,4 @@
-package basetask;
-
-import den2classwork.Glass;
+package src.basetask;
 
 public class Mouse {
       private String name;
@@ -26,5 +24,7 @@ public class Mouse {
     public String getName() {
         return name;
     }
+
+
 
 }

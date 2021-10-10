@@ -1,4 +1,4 @@
-package den2classwork;
+package src.den2classwork;
 
 public class MyRunner {
     public static void main(String[] args) {

@@ -1,4 +1,6 @@
-package basetask;
+package src.basetask;
+
+import src.basetask.TrainMethodsPrimitive;
 
 public class TrainMethodsPrimitiveRunner {
     public static void main(String[] args) {
