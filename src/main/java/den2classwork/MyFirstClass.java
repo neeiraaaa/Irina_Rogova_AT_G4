@@ -7,6 +7,4 @@ public class MyFirstClass {
             System.out.println("i = " + i);
         }
     }
-
-
-    }
+}

@@ -25,6 +25,9 @@ public class Mouse {
         return name;
     }
 
+    public void printMouseDetails() {
+        System.out.println("Я мышь, меня зовут " + getName() + " и мне " + getAge());
+    }
 
 
 }

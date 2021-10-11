@@ -12,10 +12,7 @@ public class MyRunner {
             System.out.println("Стакан не пустой");
         }
 
-
         glass.setEffectiveVolume(200);
-
-
 
         System.out.println("В стакане " + glass.getEffectiveVolume() + " мл воды");
         System.out.println("Объём стакана  " + glass.getFullVolume() + " мл воды");
@@ -26,7 +23,6 @@ public class MyRunner {
         } else {
             System.out.println("Стакан не пустой");
         }
-
     }
 }
 

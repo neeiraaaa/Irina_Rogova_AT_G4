@@ -1,4 +1,4 @@
-package clsassWork3;
+package den3classWork;
 
 public class Dog implements Speakable{
 
@@ -6,8 +6,6 @@ public class Dog implements Speakable{
         System.out.println("Gav-Gav " + phrase);
 
     }
-
-
     public void shout(String phrase) {
         System.out.println("gav " + phrase);
 

@@ -2,8 +2,6 @@ package den2classwork;
 
 public class WhileDemo {
     public void goDemo() {
-
-
         System.out.println("Метод 1");
 
         int i = 23;

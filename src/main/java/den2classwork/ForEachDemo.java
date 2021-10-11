@@ -17,7 +17,6 @@ public class ForEachDemo {
         int sum = 0;
         for (int i : array) {
             sum = sum + i;
-
         }
         System.out.println();
         System.out.println(sum / array.length);

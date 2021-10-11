@@ -1,4 +1,4 @@
-package clsassWork3;
+package den3classWork;
 
 public class SpeakRunner {
     public static void main(String[] args) {

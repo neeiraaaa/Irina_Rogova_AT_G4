@@ -18,7 +18,6 @@ public class Glass {
         return fullVolume;
     }
 
-
     public int getEffectiveVolume() {
         return effectiveVolume;
     }

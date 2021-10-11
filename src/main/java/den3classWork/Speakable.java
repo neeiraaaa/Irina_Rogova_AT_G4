@@ -1,4 +1,4 @@
-package clsassWork3;
+package den3classWork;
 
 public interface Speakable {
 

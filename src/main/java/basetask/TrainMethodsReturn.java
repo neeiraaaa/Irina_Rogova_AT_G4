@@ -4,10 +4,11 @@ public class TrainMethodsReturn {
     public int returnNewInt(int integerValue) {
         return integerValue * 3;
     }
+
     public long returnNewLong(long longValue) {
         return longValue - 4;
-
     }
+
     public String returnNewChar(char charValue) {
         return charValue + charValue + "";
     }

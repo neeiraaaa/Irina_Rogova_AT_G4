@@ -1,4 +1,4 @@
-package clsassWork3;
+package den3classWork;
 
 public class Kat implements Speakable{
 
@@ -7,9 +7,7 @@ public class Kat implements Speakable{
 
     }
 
-
     public void shout(String phrase) {
         System.out.println("mya mya " + phrase);
-
     }
 }

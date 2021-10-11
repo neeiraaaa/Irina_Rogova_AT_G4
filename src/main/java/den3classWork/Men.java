@@ -1,4 +1,4 @@
-package clsassWork3;
+package den3classWork;
 
 public class Men extends Person{
     public void justDoIt() {
@@ -7,6 +7,5 @@ public class Men extends Person{
 
     public void speak(String phrase) {
         System.out.println(phrase);
-
     }
 }
