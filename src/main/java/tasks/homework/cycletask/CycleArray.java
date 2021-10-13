@@ -12,7 +12,7 @@ public class CycleArray {
         for (int i = 0; i < myFirstArray.length; i++) {
 
             myFirstArray[i] = random.nextInt(100);
-            System.out.print(myFirstArray[i] + " ");
+            System.out.print(myFirstArray[i] + " ");  //пройти по массиву и вывести в консоль все элементы
         }
     }
 }
