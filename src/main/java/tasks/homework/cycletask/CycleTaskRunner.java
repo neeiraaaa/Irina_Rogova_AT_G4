@@ -11,6 +11,8 @@ public class CycleTaskRunner {
 
        new CycleArrayBack().randomArray();
        new CycleArrayMultiply().randomArray();
+       new CycleArrayBack().randomArray();
+       new CycleArrayMin().randomArray();
 
     }
 }

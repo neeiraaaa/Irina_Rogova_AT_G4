@@ -2,7 +2,7 @@ package tasks.homework.cycletask;
 
 import java.util.Random;
 
-public class CycleArray {
+public class CycleArraySquare extends CycleArray {
 
     public int[] randomArray() {
 
@@ -12,7 +12,8 @@ public class CycleArray {
         for (int i = 0; i < myFirstArray.length; i++) {
 
             myFirstArray[i] = random.nextInt(100);
-            System.out.print(myFirstArray[i] + " ");  //пройти по массиву и вывести в консоль все элементы
+            myFirstArray[i] = (int) Math.pow(myFirstArray[i], 2);
+            System.out.println(myFirstArray[i] + " ");  //каждый элемент массива возвести в квадрат и вывести результат в консоль
         }
         return myFirstArray;
     }
