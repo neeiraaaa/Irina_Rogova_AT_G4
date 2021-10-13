@@ -1,15 +1,18 @@
 package tasks.homework.cycletask;
 
-import tasks.homework.basetask.CycleArray;
-
 public class CycleTaskRunner {
     public static void main(String[] args) {
 
-       new CycleFor().cycleNewFor();
+        new CycleWhile().cycleNewWhile();
+        new CycleFor().cycleNewFor();
 
-       new CycleArray().randomArray();
+       CycleArray cycleArray = new CycleArray();
+       cycleArray.randomArray();
 
-       new CycleWhile().cycleNewWhile();
+       new CycleArrayBack().randomArray();
+       new CycleArrayMultiply().randomArray();
+       new CycleArrayBack().randomArray();
+       new CycleArrayMin().randomArray();
 
     }
 }
