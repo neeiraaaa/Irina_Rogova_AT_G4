@@ -10,6 +10,7 @@ public class CycleTaskRunner {
        cycleArray.randomArray();
 
        new CycleArrayBack().randomArray();
+       new CycleArrayMultiply().randomArray();
 
     }
 }

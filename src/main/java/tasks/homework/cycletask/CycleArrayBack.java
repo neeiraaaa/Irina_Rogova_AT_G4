@@ -11,7 +11,7 @@ public class CycleArrayBack extends CycleArray {
         for (int i = myFirstArray.length-1; i >= 0; i--) {
 
             myFirstArray[i] = random.nextInt(100);
-            System.out.print(myFirstArray[i] + " ");  //вывести в консоль все элементы массива в обратном порядке
+            System.out.println(myFirstArray[i] + " ");  //вывести в консоль все элементы массива в обратном порядке
         }
     }
 }
