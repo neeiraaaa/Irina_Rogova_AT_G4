@@ -6,9 +6,10 @@ public class CycleTaskRunner {
         new CycleWhile().cycleNewWhile();
         new CycleFor().cycleNewFor();
 
-
        CycleArray cycleArray = new CycleArray();
        cycleArray.randomArray();
+
+       new CycleArrayBack().randomArray();
 
     }
 }
