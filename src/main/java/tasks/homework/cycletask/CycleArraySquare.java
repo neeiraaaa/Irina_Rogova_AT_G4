@@ -6,7 +6,7 @@ public class CycleArraySquare extends CycleArray {
 
     public int[] randomArray() {
 
-        int[] myFirstArray = new int[7];
+        int[] myFirstArray = new CycleArray().randomArray();
         Random random = new Random();
 
         for (int i = 0; i < myFirstArray.length; i++) {

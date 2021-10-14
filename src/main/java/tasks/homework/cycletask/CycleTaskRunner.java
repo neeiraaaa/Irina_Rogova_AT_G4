@@ -6,13 +6,14 @@ public class CycleTaskRunner {
         new CycleWhile().cycleNewWhile();
         new CycleFor().cycleNewFor();
 
-       CycleArray cycleArray = new CycleArray();
+      CycleArray cycleArray = new CycleArray();
        cycleArray.randomArray();
 
        new CycleArrayBack().randomArray();
        new CycleArrayMultiply().randomArray();
        new CycleArrayBack().randomArray();
        new CycleArrayMin().randomArray();
+       new CycleArrayChange().randomArray();
 
     }
 }

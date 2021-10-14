@@ -6,8 +6,8 @@ public class CycleArrayMultiply extends CycleArray {
     public int[] randomArray() {
 
         int multiply = 5;
+        int[] myFirstArray = new CycleArray().randomArray();
 
-        int[] myFirstArray = new int[7];
         Random random = new Random();
 
         for (int i = 0; i < myFirstArray.length; i++) {
