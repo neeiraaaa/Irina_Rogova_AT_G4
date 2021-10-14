@@ -5,7 +5,8 @@ import java.util.Random;
 public class CycleArrayBack extends CycleArray {
     public int[] randomArray() {
 
-        int[] myFirstArray = new int[7];
+        int[] myFirstArray = new CycleArray().randomArray();
+
         Random random = new Random();
 
         for (int i = myFirstArray.length-1; i >= 0; i--) {
