@@ -2,8 +2,8 @@ package project.bubbles;
 
 public class Bottle {
 
-    private int bottleValue;
-    public String bottleWater;
+    private double bottleValue;
+    private double bottleWater;
 
     public void open() {
 
