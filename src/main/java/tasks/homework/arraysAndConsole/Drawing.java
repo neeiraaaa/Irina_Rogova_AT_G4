@@ -1,4 +1,4 @@
-package tasks.homework.ArraysAndConsole;
+package tasks.homework.arraysAndConsole;
 
 public class Drawing {
     public static void main(String[] args) {
