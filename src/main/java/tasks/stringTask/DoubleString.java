@@ -7,6 +7,7 @@ import java.util.Objects;
 public class DoubleString {
 
     public static void main(String[] args) {
+
         String doubleWords= "Привет Ира, привет Настя, привет Оля";
         int count;
 
