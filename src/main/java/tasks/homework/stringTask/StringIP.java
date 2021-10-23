@@ -1,4 +1,4 @@
-package tasks.stringTask;
+package tasks.homework.stringTask;
 
 //имеется текст лога в виде:
         //access_log.2020.09.07 212.168.101.5 granted

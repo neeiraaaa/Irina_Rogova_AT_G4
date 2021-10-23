@@ -1,4 +1,4 @@
-package tasks.stringTask;
+package tasks.homework.stringTask;
 
 //найти и вывести в консоль все дубликаты слов в строке текста
 

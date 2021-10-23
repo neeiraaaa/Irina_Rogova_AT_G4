@@ -1,4 +1,4 @@
-package tasks.stringTask;
+package tasks.homework.stringTask;
 
 public class isGranted {
 
