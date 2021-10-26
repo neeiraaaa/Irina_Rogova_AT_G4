@@ -27,7 +27,7 @@ public class MyCalcScanner {
         division = firstNum / secondNum;
 
         while (input.hasNext()) {
-            userChoice = input.nextLine();
+           userChoice = input.nextLine();
 
             if (userChoice.equals("add")) {
                 System.out.println("Answer = " + addition);
