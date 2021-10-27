@@ -25,21 +25,20 @@ public class MyButterflies {
                 counter++;
             }
         }
-        System.out.println(" ");
+        System.out.println();
         System.out.println(counter);
 
-        System.out.println(" ");
+        System.out.println();
 
         for (int i = 0; i < butterflies.size(); i++) {
             System.out.print(butterflies.get(i) + " ");
         }
 
-        System.out.println(" ");
-        System.out.println(" ");
+        System.out.println();
+        System.out.println();
 
         for (String myButterflies3 : butterflies) {
             System.out.print(myButterflies3 + "\n");
         }
-
     }
 }
