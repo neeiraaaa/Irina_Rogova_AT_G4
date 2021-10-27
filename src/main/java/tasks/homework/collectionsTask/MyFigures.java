@@ -40,6 +40,5 @@ public class MyFigures {
         for (String myFigures2 : figures) {
             System.out.print(myFigures2 + " ");
         }
-
     }
 }
