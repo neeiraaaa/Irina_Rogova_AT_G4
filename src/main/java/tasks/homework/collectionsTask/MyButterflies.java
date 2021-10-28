@@ -20,6 +20,7 @@ public class MyButterflies {
 
         int counter = 0;
 
+
         for (String myButterflies2 : butterflies) {
             if (myButterflies2.contains("o")) {
                 counter++;
