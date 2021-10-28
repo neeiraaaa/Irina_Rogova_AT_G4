@@ -21,8 +21,18 @@ public class MyElements {
             System.out.print(elements + " ");
         }
 
-        //Посчитать сколько названий элементов состоит более, чем из одного слова и вывести число в консоль
+        System.out.println();
+        System.out.println();
 
+        //Посчитать сколько названий элементов состоит более, чем из одного слова и вывести число в консоль
+        String words2regex = ".+\\W+.+";
+        int countMore1Word = 0;
+        for (String w : elementsNew) {
+            if (w.matches(words2regex)) {
+                countMore1Word++;
+            }
+        }
+        System.out.println(countMore1Word);
 
         for (int i = 0; i < elementsNew.size(); i++) {
             System.out.print(elementsNew.get(i) + " ");
@@ -37,6 +47,5 @@ public class MyElements {
         for (String elements2 : elementsNew) {
             System.out.print(elements2 + " ");
         }
-
     }
 }
