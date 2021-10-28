@@ -15,11 +15,15 @@ public class MyBirds {
         }
 
         //Посчитать сколько птиц содержат больше 1 гласной и вывести в число в консоль
-        if (birds.contains("а, у, о, ы, и, э, я, ю, ё, е")) {
-            System.out.println();
-        } else {
-            System.out.println();
+        int count = 0;
+        for (String bird : birds) {
+            System.out.println("--" + bird + "--");
+            String newBirds = bird.replaceAll("[аеёиоуыэюя]", "");
+            if ((bird.length() - newBirds.length()) > 1) {
+                count++;
+            }
         }
+        System.out.println(count);
 
         for (int i = 0; i < birds.size(); i++) {
             System.out.print(birds.get(i) + " ");
@@ -32,7 +36,7 @@ public class MyBirds {
         birds.add(3,"Синица");
 
         for (String birds2 : birds) {
-            System.out.println(birds2 );
+            System.out.print(birds2 + " " );
         }
     }
 }
