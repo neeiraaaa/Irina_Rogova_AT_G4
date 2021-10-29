@@ -20,7 +20,6 @@ public class MyNoodles {
         }
 
         System.out.println();
-        System.out.println();
 
         //Заменить в каждом слове буквы "а" на букву "о"
         for (int i = 0; i < noodles.size(); i++) {
