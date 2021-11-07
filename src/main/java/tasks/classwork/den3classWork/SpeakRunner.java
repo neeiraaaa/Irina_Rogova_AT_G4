@@ -6,7 +6,7 @@ public class SpeakRunner {
         Person men = new Men();
         men.speak("da");
 
-        speakAnySpeakable(new Person());
+        //speakAnySpeakable(new Person());
         speakAnySpeakable(new Dog());
         speakAnySpeakable(new Kat());
     }
