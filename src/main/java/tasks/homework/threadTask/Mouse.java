@@ -31,6 +31,7 @@ public class Mouse {
             Mouse mouse = new Mouse(i);
             mouse.peep();
         }
+
     }
 }
 
