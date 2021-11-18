@@ -24,13 +24,5 @@ public class Mouse {
             e.printStackTrace();
         }
     }
-
-    public static void main(String[] args) {
-
-        for (int i = 1; i < 5; i++) {
-            Mouse mouse = new Mouse(i);
-            mouse.peep();
-        }
-    }
 }
 
