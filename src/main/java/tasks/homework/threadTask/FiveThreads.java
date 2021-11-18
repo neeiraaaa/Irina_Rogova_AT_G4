@@ -5,21 +5,34 @@ package tasks.homework.threadTask;
 -- проитерировать коллекцию и пикнуть каждой мышью
 - запустить потоки одновременно*/
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 public class FiveThreads  {
 
-    public static void main(String[] args) {
+        public static void main(String[] args) {
 
-        int numThreads = 5;
-        for (int k = 0; k < numThreads; k++) {
-            Thread thread = new Thread(() -> {
-                for (int i = 1; i < 21; i++) {
-                    Mouse mouse = new Mouse(i);
-                    mouse.peep();
-                }
-            });
-            thread.start();
+            List<Mouse> mouses = Collections.synchronizedList(new ArrayList<>(280));
+            for (int i = 1; i <= 280; i++) {
+                mouses.add(new Mouse(i));
+            }
+
+            for (int i = 0; i < 5; i++) {
+                Thread thread = new Thread(() -> {
+                    while(!mouses.isEmpty()) {
+                        mouses.remove(0).peep();
+                        try {
+                            Thread.sleep(300);
+                        } catch (InterruptedException e) {
+                            System.out.println("Something goes wrong");
+                        }
+                    }
+                });
+                thread.start();
+            }
         }
     }
-}
+
 
 
